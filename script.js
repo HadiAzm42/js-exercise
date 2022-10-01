@@ -81,3 +81,14 @@ console.log("My Favourite number is", Favourite_Number);
 // Number 8
 // We have to do simple operations such as addition, subtraction, multiplication and division to get the result 8 in console log.
 
+
+// Exercise 11
+// Select each element in an array
+
+var friends = ['Arham', 'Suleman', "Ali", "Rizwan", "Huzaifa"];
+
+console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
+console.log(friends[3]);
+console.log(friends[4]);
