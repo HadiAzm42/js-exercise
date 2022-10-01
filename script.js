@@ -59,3 +59,11 @@ var remove_space = person_name.replace(/\t/, "");
 var remove_space = remove_space.replace(/\n/, "");
 
 console.log(remove_space);
+
+// Exercise 7
+// Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+
+console.log(4+4);
+console.log(15-7);
+console.log(2*4);
+console.log(16/2);
