@@ -38,3 +38,11 @@ console.log(`The Text in title case :- ${title}`);
 var Author = 'Napoleon Hill';
 var quote = 'The ladder of success is never crowded at the top.';
 console.log(`${Author} once said "${quote}"`);
+
+// Exercise 5
+// Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+
+var famous_person = 'Harvey Mackay';
+var famous_quote = 'People begin to become successful the minute they decide to be.';
+var finalmessage = famous_person + " once said" + ' "' + famous_quote + '"';
+console.log(finalmessage);
