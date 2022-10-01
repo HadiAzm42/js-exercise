@@ -67,3 +67,9 @@ console.log(4+4);
 console.log(15-7);
 console.log(2*4);
 console.log(16/2);
+
+// Exercise 9
+// Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+
+var Favourite_Number = 42;
+console.log("My Favourite number is", Favourite_Number);
