@@ -46,3 +46,16 @@ var famous_person = 'Harvey Mackay';
 var famous_quote = 'People begin to become successful the minute they decide to be.';
 var finalmessage = famous_person + " once said" + ' "' + famous_quote + '"';
 console.log(finalmessage);
+
+
+// Exercise 6
+// Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+
+var person_name = "\tUmar \nYahya"
+
+console.log(person_name);
+
+var remove_space = person_name.replace(/\t/, "");
+var remove_space = remove_space.replace(/\n/, "");
+
+console.log(remove_space);
