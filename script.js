@@ -73,3 +73,11 @@ console.log(16/2);
 
 var Favourite_Number = 42;
 console.log("My Favourite number is", Favourite_Number);
+
+
+// Exercise 10
+// Adding Comments
+
+// Number 8
+// We have to do simple operations such as addition, subtraction, multiplication and division to get the result 8 in console log.
+
