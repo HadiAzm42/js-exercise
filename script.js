@@ -174,4 +174,17 @@ var guests = ['Muhammad Rizwan', 'Malik Farhat', 'Suleman Rehan', 'Muhammad Yahy
 guests[(guests.indexOf('Athar Shah'))]='Mazhar Shah';
 
 guests.map(x=> console.log(`Hey ${x}, You are invited at our house today for dinner.`));
-console.log(`\nToday ${guests.length} are invited at our house!`);
+console.log(`\nToday ${guests.length} guests are invited at our house!`);
+
+// Exercise 20
+// They think of something you could store in a JavaScript Object. Write a program that creates Objects containing these items.
+
+var cities = [];
+
+cities[0] = 'Islamabad';
+cities[1] = 'Multan';
+cities[2] = 'Faisalabad';
+cities[3] = 'Lahore';
+cities[4] = 'Karachi';
+
+console.log(cities);
