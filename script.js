@@ -112,3 +112,18 @@ Transport.map(x => console.log(`My Favourite type of Transport is ${x}.`));
 var guests = ['Muhammad Rizwan', 'Malik Farhat', 'Suleman Rehan', 'Muhammad Yahya'];
 
 guests.map(x => console.log(`Hey ${x}, You are invited to dinner at our house today.`));
+
+// Exercise 15
+// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+guests[(guests.indexOf('Azlan Jilaani'))]='Abdurehman';
+
+guests.map(x=> console.log(`Hey ${x}, I invite you to dinner at our house today.`));
+
+guests.unshift('Ikram Mohammad');
+
+guests.push('Zaheen Masood');
+
+guests.splice(guests.length/2, 0, 'Subhan Azeemi');
+
+guests.map(x=> console.log(`Hey ${x}, You are invited to dinner at our house today.`));
