@@ -158,7 +158,11 @@ guests.map(x =>
 // Exercise 18
 // Seeing the World: Think of at least five places in the world you’d like to visit.
 
-var places = ['KSA', 'Germany', 'Europe', 'Canada', 'Dubai'];
+var places = ['Antartica', 'Germany', 'Europe', 'California', 'Dammam'];
 
-console.log("Alphabatically arranged array :");
+console.log("Array arranged in Alphabetical order :");
 console.log([...places].sort());
+
+// original array 
+console.log(`Original array again :`);
+console.log(places);
