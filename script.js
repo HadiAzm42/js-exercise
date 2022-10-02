@@ -127,3 +127,25 @@ guests.push('Zaheen Masood');
 guests.splice(guests.length/2, 0, 'Subhan Azeemi');
 
 guests.map(x=> console.log(`Hey ${x}, You are invited to dinner at our house today.`));
+
+// Exercise 16
+//  Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+// Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+// Print a second set of invitation messages, one for each person who is still in your list.
+// More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+
+guests.splice(guests.length / 2, 0, "Subhan Azeemi");
+
+guests.map(x => console.log(`Hey ${x}, Sorry to inform you that we don't have enough tables, therefore, only two guests will be invited.`));
+
+for (i = guests.length; i > 2; i--) {
+  console.log(
+    `Hey ${guests[i-1]}, You will be invited next time. Sorry for inconvenience!`
+  );
+  guests.pop();
+}
+console.log('');
+guests.map(x =>
+  console.log(
+    `Hey ${x}, We are happy to have you at our dinner table tonight.`
+));
