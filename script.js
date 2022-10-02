@@ -166,3 +166,11 @@ console.log([...places].sort());
 // original array 
 console.log(`Original array again :`);
 console.log(places);
+
+// Exercise 19
+// Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+
+var guests = ['Muhammad Rizwan', 'Malik Farhat', 'Suleman Rehan', 'Muhammad Yahya'];
+guests[(guests.indexOf('Athar Shah'))]='Mazhar Shah';
+
+guests.map(x=> console.log(`Hey ${x}, You are invited at our house today for dinner.`));
