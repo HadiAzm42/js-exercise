@@ -154,3 +154,11 @@ guests.map(x =>
   console.log(
     `Hey ${x}, We are happy to have you at our dinner table tonight.`
 ));
+
+// Exercise 18
+// Seeing the World: Think of at least five places in the world you’d like to visit.
+
+var places = ['KSA', 'Germany', 'Europe', 'Canada', 'Dubai'];
+
+console.log("Alphabatically arranged array :");
+console.log([...places].sort());
