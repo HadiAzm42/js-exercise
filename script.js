@@ -174,3 +174,4 @@ var guests = ['Muhammad Rizwan', 'Malik Farhat', 'Suleman Rehan', 'Muhammad Yahy
 guests[(guests.indexOf('Athar Shah'))]='Mazhar Shah';
 
 guests.map(x=> console.log(`Hey ${x}, You are invited at our house today for dinner.`));
+console.log(`\nToday ${guests.length} are invited at our house!`);
