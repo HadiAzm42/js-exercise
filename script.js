@@ -97,3 +97,11 @@ console.log(friends[4]);
 // Welcome message to each element
 
 friends.map(x => console.log(`Hi ${x}, Have a great time here.`));
+
+
+// Exercise 13
+// Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
+var Transport = ['Car', 'Jet', 'Motor Bike', 'Bicycle'];
+
+Transport.map(x => console.log(`My Favourite type of Transport is ${x}.`));
